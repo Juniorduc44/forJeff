@@ -31,3 +31,5 @@ sudo apt --fix-broken install
 
 # Now try installing wine32
 sudo apt install wine32
+
+### If you have duplicates in sources.list [remove](removeDuplicatesSourceList.md) them.
