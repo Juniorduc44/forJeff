@@ -13,7 +13,7 @@ sudo wget -O /etc/apt/keyrings/winehq-archive.key https://dl.winehq.org/wine-bui
 ```
 
 ## Step 2: Add WineHQ Repository
-```bash
+
 # For Ubuntu 22.04
 sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/winehq-jammy.sources
 
@@ -22,7 +22,7 @@ sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/
 
 # For Debian 12
 # sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/debian/dists/bookworm/winehq-bookworm.sources
-```
+
 
 ## Step 3: Update Package List
 ```bash
@@ -36,6 +36,7 @@ Choose one of the following versions:
 ```bash
 sudo apt install --install-recommends winehq-stable
 ```
+
 
 ### Development Version
 ```bash
@@ -68,6 +69,10 @@ sudo apt install -f
 ```bash
 sudo apt update && sudo apt upgrade
 sudo apt install wine64 wine32
+```
+4. If packages need to be removed
+```bash
+sudo apt autoremove
 ```
 
 ## Optional: Install Additional Dependencies
