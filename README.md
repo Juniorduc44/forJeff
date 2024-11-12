@@ -16,3 +16,6 @@ Press [here](kasmLoad.sh)
 
 ## For docker download
 Press [here](docker.md)
+
+## For Remmina
+Press [here](remmina.md)
