@@ -75,6 +75,11 @@ sudo apt install wine64 wine32
 sudo apt autoremove
 ```
 
+5. Add dependencies with install
+```bash
+sudo apt-get -f install wine64 wine32 -y && sudo apt --fix-broken install && sudo apt-get install -f
+```
+
 ## Optional: Install Additional Dependencies
 ```bash
 sudo apt install winetricks
